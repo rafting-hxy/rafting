@@ -1,0 +1,30 @@
+<div class="page-wrapper">
+  <header id="header" class="clearfix">
+    <div nz-row>
+      <div nz-col [nzXs]="24" [nzSm]="24" [nzMd]="8" [nzLg]="5" [nzXl]="5" [nzXXl]="4">
+        <a id="logo" href>
+          <img alt="logo" src="./assets/img/logo.svg">
+          <img alt="NG-ZORRO" src="./assets/img/zorro.svg">
+        </a>
+      </div>
+
+      <div nz-col [nzXs]="0" [nzSm]="0" [nzMd]="16" [nzLg]="19" [nzXl]="19" [nzXXl]="20" class="nav nav-hide">
+
+
+        <ul nz-menu [nzMode]="'horizontal'" id="nav">
+          <li nz-menu-item nzSelected>
+            <a routerLink="/distributed/index"><span>分布式相关</span></a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink="/doc/introduce/zh"><span>Java基础</span></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="main-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</div>
