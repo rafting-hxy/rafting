@@ -16,6 +16,7 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
+        <module>netty-rpc-registry-api</module>
         <module>netty-rpc-registry-zookeeper</module>
     </modules>
 

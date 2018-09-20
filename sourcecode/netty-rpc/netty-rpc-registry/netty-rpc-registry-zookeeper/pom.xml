@@ -23,5 +23,10 @@
             <artifactId>zkclient</artifactId>
             <version>${version.zkclient}</version>
         </dependency>
+        <dependency>
+            <groupId>com.mx.rafting</groupId>
+            <artifactId>netty-rpc-registry-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

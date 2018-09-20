@@ -1,6 +1,7 @@
-package com.mx.rafting.prc.registry.zookeeper;
+package com.mx.rafting.rpc.registry.zookeeper;
 
-import com.mx.rafting.prc.registry.api.RegistryService;
+
+import com.mx.rafting.rpc.registry.api.RegistryService;
 import org.I0Itec.zkclient.ZkClient;
 
 import java.net.URL;
