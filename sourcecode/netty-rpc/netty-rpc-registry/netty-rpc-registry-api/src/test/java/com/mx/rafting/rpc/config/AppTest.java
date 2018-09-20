@@ -1,4 +1,4 @@
-package com.mx.rafting;
+package com.mx.rafting.rpc.config;
 
 import static org.junit.Assert.assertTrue;
 

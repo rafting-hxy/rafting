@@ -5,7 +5,6 @@ import com.mx.rafting.rpc.registry.api.RegistryService;
 import org.I0Itec.zkclient.ZkClient;
 
 import java.net.URL;
-import java.rmi.registry.Registry;
 
 public class ZookeeperRegisterService implements RegistryService {
 

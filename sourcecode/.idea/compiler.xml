@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netty-rpc-bootstrap" />
+        <module name="netty-rpc-config" />
         <module name="netty-rpc-registry-api" />
         <module name="netty-rpc-registry-zookeeper" />
         <module name="shop" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="netty-rpc" target="1.7" />
       <module name="netty-rpc-bootstrap" target="1.7" />
+      <module name="netty-rpc-config" target="1.7" />
       <module name="netty-rpc-registry" target="1.7" />
       <module name="netty-rpc-registry-api" target="1.7" />
       <module name="netty-rpc-registry-zookeeper" target="1.7" />
