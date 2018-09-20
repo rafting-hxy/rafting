@@ -51,23 +51,10 @@ public class ZookeeperRegisterService implements RegistryService {
 
     @Override
     public void register(URL url) {
-        zkClient.create(toUrlPath(url), url.getParameter(Constants.DYNAMIC_KEY, true));
+
 
     }
 
-    private String toServicePath(URL url) {
-        String name = url.getServiceInterface();
-        if (Constants.ANY_VALUE.equals(name)) {
-            return toRootPath();
-        }
-        return toRootDir() + URL.encode(name);
-    }
-
-
-
-    private String toUrlPath(URL url) {
-        return toCategoryPath(url) + Constants.PATH_SEPARATOR + URL.encode(url.toFullString());
-    }
 
     @Override
     public void unregister(URL url) {
