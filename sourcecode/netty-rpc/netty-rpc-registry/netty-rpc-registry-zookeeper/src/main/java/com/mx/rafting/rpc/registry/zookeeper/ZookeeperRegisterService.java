@@ -34,10 +34,10 @@ public class ZookeeperRegisterService implements RegistryService {
             zk = new ZooKeeper(ZK_CONNECT, ZK_SESSION_TIMEOUT, new Watcher() {
                 @Override
                 public void process(WatchedEvent event) {
-                    // 判断是否已连接ZK,连接后计数器递减.
-                    if (event.getState() == Watcher.Event.KeeperState.SyncConnected) {
-                        latch.countDown();
-                    }
+                // 判断是否已连接ZK,连接后计数器递减.
+                if (event.getState() == Watcher.Event.KeeperState.SyncConnected) {
+                    latch.countDown();
+                }
                 }
             });
 
