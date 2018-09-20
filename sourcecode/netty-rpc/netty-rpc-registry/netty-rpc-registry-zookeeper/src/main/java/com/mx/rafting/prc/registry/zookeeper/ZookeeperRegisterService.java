@@ -12,7 +12,7 @@ public class ZookeeperRegisterService implements RegistryService {
 
 
     public ZookeeperRegisterService(URL url) {
-       
+
     }
 
     @Override
