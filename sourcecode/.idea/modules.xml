@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc-bootstrap/netty-rpc-bootstrap.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc-bootstrap/netty-rpc-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc-config/netty-rpc-config.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc-config/netty-rpc-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry-api/netty-rpc-registry-api.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry-api/netty-rpc-registry-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry-zookeeper/netty-rpc-registry-zookeeper.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc-registry/netty-rpc-registry-zookeeper/netty-rpc-registry-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rafting.iml" filepath="$PROJECT_DIR$/rafting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
     </modules>
   </component>
 </project>

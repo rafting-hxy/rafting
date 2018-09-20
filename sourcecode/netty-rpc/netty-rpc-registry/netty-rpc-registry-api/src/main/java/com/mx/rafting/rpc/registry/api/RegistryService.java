@@ -1,4 +1,4 @@
-package com.mx.rafting.prc.registry.api;
+package com.mx.rafting.rpc.registry.api;
 
 import java.net.URL;
 
